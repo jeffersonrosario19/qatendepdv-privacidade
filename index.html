@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Central de Documentação & Política de Privacidade — QAtende PDV</title>
+    <style>
+        :root {
+            --primary-color: #0066CC;
+            --primary-dark: #004080;
+            --primary-light: #E6F0FA;
+            --accent-color: #00A86B;
+            --text-color: #1F2937;
+            --bg-color: #F8FAFC;
+            --card-bg: #FFFFFF;
+            --border-color: #E2E8F0;
+            --secondary-text: #64748B;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            line-height: 1.6;
+            color: var(--text-color);
+            background-color: var(--bg-color);
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 860px;
+            margin: 40px auto;
+            padding: 36px;
+            background: var(--card-bg);
+            border-radius: 16px;
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
+            border: 1px solid var(--border-color);
+        }
+
+        header {
+            text-align: center;
+            border-bottom: 2px solid var(--primary-light);
+            padding-bottom: 24px;
+            margin-bottom: 32px;
+        }
+
+        .app-badge {
+            display: inline-block;
+            background: var(--primary-light);
+            color: var(--primary-dark);
+            font-size: 13px;
+            font-weight: 700;
+            padding: 6px 16px;
+            border-radius: 20px;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            margin-bottom: 12px;
+        }
+
+        h1 {
+            color: var(--primary-dark);
+            font-size: 30px;
+            margin: 8px 0;
+            font-weight: 800;
+        }
+
+        .subtitle {
+            font-size: 15px;
+            color: var(--secondary-text);
+        }
+
+        .last-updated {
+            font-size: 13px;
+            color: var(--secondary-text);
+            margin-top: 6px;
+        }
+
+        .category-header {
+            font-size: 14px;
+            font-weight: 800;
+            color: var(--primary-color);
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-top: 36px;
+            margin-bottom: 16px;
+            padding-bottom: 6px;
+            border-bottom: 2px solid var(--primary-color);
+        }
+
+        .doc-card {
+            background: #FFFFFF;
+            border: 1px solid var(--border-color);
+            border-radius: 12px;
+            padding: 22px;
+            margin-bottom: 20px;
+            transition: all 0.2s ease;
+        }
+
+        .doc-card:hover {
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+            border-color: var(--primary-color);
+        }
+
+        h2 {
+            color: var(--primary-dark);
+            font-size: 19px;
+            margin-top: 0;
+            margin-bottom: 12px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        p, li {
+            font-size: 15px;
+            color: var(--text-color);
+        }
+
+        ul {
+            padding-left: 20px;
+            margin-bottom: 10px;
+        }
+
+        li {
+            margin-bottom: 6px;
+        }
+
+        .highlight-box {
+            background-color: var(--primary-light);
+            border-radius: 12px;
+            padding: 18px 24px;
+            margin: 24px 0;
+            border-left: 5px solid var(--primary-color);
+        }
+
+        .highlight-box p {
+            margin: 0;
+            font-weight: 600;
+            color: var(--primary-dark);
+        }
+
+        footer {
+            margin-top: 48px;
+            padding-top: 24px;
+            border-top: 1px solid var(--border-color);
+            text-align: center;
+            font-size: 14px;
+            color: var(--secondary-text);
+        }
+
+        @media (max-width: 600px) {
+            .container {
+                margin: 12px;
+                padding: 20px;
+            }
+            h1 {
+                font-size: 22px;
+            }
+            h2 {
+                font-size: 17px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <header>
+        <div class="app-badge">QAtende PDV • v1.0.1</div>
+        <h1>Central de Documentação & Termos Legais</h1>
+        <div class="subtitle">Manual Operacional, Diretrizes Comerciais e Política de Privacidade</div>
+        <div class="last-updated">Última atualização: 29 de Outubro de 2026</div>
+    </header>
+
+    <div class="highlight-box">
+        <p>🔒 Resumo de Privacidade: O <strong>QAtende PDV</strong> opera de forma offline e prioritariamente local. Os dados do seu comércio (vendas, caixa, estoque e clientes) são de sua propriedade e ficam salvos no seu aparelho. Não vendemos nem compartilhamos seus dados com terceiros.</p>
+    </div>
+
+    <!-- Categoria 1 -->
+    <div class="category-header">1. Documentações Legais e Termos</div>
+
+    <div class="doc-card">
+        <h2>1. Política de Privacidade e Proteção de Dados (LGPD & Google Play)</h2>
+        <p>O <strong>QAtende PDV</strong> (pacote <code>br.app.jefferson.qatendepdv</code>) trata a privacidade do seu negócio de forma rigorosa:</p>
+        <ul>
+            <li><strong>Armazenamento no Dispositivo:</strong> Os cadastros de produtos, movimentações de caixa, histórico de vendas, relatórios e contatos de clientes são mantidos exclusivamente no banco de dados local do seu smartphone ou tablet.</li>
+            <li><strong>Dados Pessoais de Clientes (Nome, Telefone e Endereço):</strong> Opcionalmente cadastrados pelo lojista para identificação das vendas no fiado (à prazo) e para atalhos de contato direto (ligação ou WhatsApp). Tais dados permanecem no banco local do dispositivo, não sendo coletados, transmitidos para servidores do desenvolvedor ou comercializados com terceiros.</li>
+            <li><strong>Câmera (<code>CAMERA</code>):</strong> Utilizada exclusivamente para escaneamento e leitura de códigos de barras (EAN/GTIN). Nenhuma imagem é gravada ou enviada a servidores externos.</li>
+            <li><strong>Bluetooth e Rede Local (<code>BLUETOOTH_CONNECT</code> e <code>INTERNET</code>):</strong> Utilizados estritamente para localização e comunicação com impressoras térmicas de recibos (conectadas via Bluetooth ou Rede Local/Wi-Fi por IP) e leitores de código de barras.</li>
+            <li><strong>Internet e Faturamento (<code>INTERNET</code> e <code>BILLING</code>):</strong> Utilizados para validação da licença/assinatura via Google Play Billing e gestão de backups ativados pelo usuário.</li>
+            <li><strong>Sem Comercialização de Dados:</strong> O aplicativo não comercializa, aluga ou compartilha dados comerciais ou de clientes com terceiros.</li>
+        </ul>
+    </div>
+
+    <div class="doc-card">
+        <h2>2. Termos e Condições de Licenciamento de Uso</h2>
+        <p>Condições para utilização comercial do software:</p>
+        <ul>
+            <li><strong>Licença Individual:</strong> Concede o direito não exclusivo de uso em um único dispositivo ou estabelecimento autorizado por licença.</li>
+            <li><strong>Ativação e Validação:</strong> O aplicativo valida o status da licença através de chave de acesso ou assinatura ativa vinculada à Google Play Store.</li>
+            <li><strong>Atualizações do Sistema:</strong> Incluem melhorias periódicas em desempenho, segurança e novos recursos do ponto de venda.</li>
+        </ul>
+    </div>
+
+    <div class="doc-card">
+        <h2>3. Diretrizes de Recibos e Operação Fiscal</h2>
+        <p>Esclarecimentos sobre o uso fiscal do sistema:</p>
+        <ul>
+            <li><strong>Recibos não Fiscais:</strong> Os comprovantes emitidos e impressos pelo aplicativo destinam-se ao controle interno, conferência e entrega de recibo comercial ao cliente.</li>
+            <li><strong>Conformidade Tributária:</strong> O lojista é o único responsável pelo cumprimento das obrigações fiscais e emissão dos documentos tributários obrigatórios (NFC-e/SAT/NFe) junto à SEFAZ e Prefeitura.</li>
+        </ul>
+    </div>
+
+    <!-- Categoria 2 -->
+    <div class="category-header">2. Manuais Operacionais do PDV</div>
+
+    <div class="doc-card">
+        <h2>4. Operação do Frente de Caixa e Formas de Pagamento</h2>
+        <p>Orientações para o atendimento diário no balcão:</p>
+        <ul>
+            <li><strong>Registro de Vendas:</strong> Adição ágil de produtos via pesquisa por nome, seleção por categoria ou leitura de código de barras.</li>
+            <li><strong>Formas de Pagamento:</strong> Suporte a pagamentos em Dinheiro (com troco automático), PIX estático via QR Code, Cartões e Venda a Prazo (Fiado).</li>
+            <li><strong>Operações de Turno:</strong> Lançamento rápido de Sangria (retirada de valor do caixa) e Suprimento (fundo de troco).</li>
+        </ul>
+    </div>
+
+    <div class="doc-card">
+        <h2>5. Gestão de Produtos, Custos e Estoque</h2>
+        <p>Práticas recomendadas para manter o controle de mercadorias:</p>
+        <ul>
+            <li><strong>Cadastro Completo:</strong> Mantenha preço de custo, preço de venda, código de barras e unidade de medida (UN, KG, CX) atualizados.</li>
+            <li><strong>Estoque Mínimo:</strong> O aplicativo sinaliza visualmente quando o estoque atinge o limite crítico definido pelo lojista.</li>
+        </ul>
+    </div>
+
+    <div class="doc-card">
+        <h2>6. Compatibilidade com Impressoras e Periféricos</h2>
+        <p>Integração de hardware externo:</p>
+        <ul>
+            <li><strong>Impressoras Térmicas:</strong> Compatível com impressoras térmicas de 58mm e 80mm utilizando o protocolo padrão ESC/POS, conectadas via Bluetooth ou através da Rede Local (Wi-Fi/Ethernet) pelo endereço IP configurado.</li>
+            <li><strong>Leitores de Código de Barras:</strong> Compatível com scanners manuais USB/Bluetooth e câmera integrada do celular.</li>
+        </ul>
+    </div>
+
+    <div class="doc-card">
+        <h2>7. Gestão de Clientes e Caderneta de Fiado</h2>
+        <p>Controle de crédito do estabelecimento:</p>
+        <ul>
+            <li><strong>Vendas no Fiado:</strong> Os débitos são vinculados à conta do cliente, acumulando o saldo devedor de forma organizada.</li>
+            <li><strong>Pagamentos Parciais:</strong> Permite abatimento de saldo devedor com emissão de recibo de quitação parcial ou total.</li>
+        </ul>
+    </div>
+
+    <div class="doc-card">
+        <h2>8. Segurança, Criptografia e Backup de Dados</h2>
+        <p>Proteção contra perda de informações:</p>
+        <ul>
+            <li><strong>Cópia de Segurança:</strong> Gere cópias de segurança criptografadas regularmente e salve em local seguro (nuvem ou computador).</li>
+            <li><strong>Restauração:</strong> Permite recuperar cadastros e histórico a partir do arquivo de backup do próprio aplicativo.</li>
+        </ul>
+    </div>
+
+    <!-- Categoria 3 -->
+    <div class="category-header">3. Suporte Técnico e Isenção</div>
+
+    <div class="doc-card">
+        <h2>9. Isenção de Responsabilidade (Disclaimer)</h2>
+        <p>O desenvolvedor do QAtende PDV não se responsabiliza por perdas financeiras, mau uso do sistema, falhas em hardware externo, ausência de cópias de segurança (backups) ou decisões administrativas do lojista.</p>
+    </div>
+
+    <div class="doc-card">
+        <h2>10. Canais Oficiais de Suporte Técnico</h2>
+        <p>Dúvidas, suporte técnico ou sugestões de novos recursos:</p>
+        <p><strong>E-mail de Suporte:</strong> suporte.qatendepdv@gmail.com</p>
+        <p><strong>Horário de Atendimento:</strong> Segunda a Sexta-feira, das 08h às 18h</p>
+    </div>
+
+    <footer>
+        &copy; 2026 QAtende PDV. Todos os direitos reservados.
+    </footer>
+</div>
+
+</body>
+</html>
